@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.kiitanakala.superizer20.Main2Activity"
+    tools:showIn="@layout/activity_main2">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:background="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/chavaregular" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Summarize:"
+        android:id="@+id/textView"
+        android:layout_marginTop="12.5dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/URLref"
+        android:hint="Article URL"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton"
+        android:layout_toLeftOf="@+id/original"
+        android:layout_toStartOf="@+id/original"
+        android:editable="true"
+        android:textAlignment="center"
+        android:imeOptions="actionDone"
+        android:inputType="textUri" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Original"
+        android:id="@+id/original"
+        android:background="#a81514"
+        android:textColor="#ffffff"
+        android:textSize="17.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/summarizedText"
+        android:layout_alignEnd="@+id/summarizedText" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/summarizedText"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/URLref"
+        android:layout_above="@+id/original" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Summary"
+        android:id="@+id/summary"
+        android:background="#a81514"
+        android:textColor="#ffffff"
+        android:textSize="17.5dp"
+        android:layout_alignBottom="@+id/original"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:id="@+id/search"
+        android:background="#a81514"
+        android:textColor="#ffffff"
+        android:textSize="17.5dp"
+        android:layout_below="@+id/textView"
+        android:elegantTextHeight="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/original"
+        android:layout_alignStart="@+id/original" />
+
+    <WebView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/webView"
+        android:layout_alignBottom="@+id/summarizedText"
+        android:layout_alignRight="@+id/summarizedText"
+        android:layout_alignEnd="@+id/summarizedText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/search" />
+
+</RelativeLayout>
