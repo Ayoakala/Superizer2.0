@@ -43,5 +43,7 @@ Here are some sample runs:
 | Summary  | Original |
 |---|---|
 |<img src="http://i64.tinypic.com/j5wbnl.png" height="250px" width="400px" /> | <img src="http://i67.tinypic.com/qn496u.png" height="250px" width="400px" />|
+|<img src="http://i67.tinypic.com/1255htf.png" height="250px" width="400px" /> | <img src="http://i66.tinypic.com/1jqm2w.png" height="250px" width="400px" />|
+|<img src="http://i66.tinypic.com/2zylb21.png" height="250px" width="400px" /> | <img src="http://i64.tinypic.com/zo8i9c.png" height="250px" width="400px" />|
 
 In conclusion, my app provides you with the power to summarize long articles into 6 concise senteces and also provides you with the authors name. I will continue to innovate this ap and add other features like keywords and direct linking. Have fun summarizing!!!
