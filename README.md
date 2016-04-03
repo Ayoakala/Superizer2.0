@@ -28,7 +28,7 @@ I myself do not have an android phone at the time to test the app with but I use
 
 3. Open any main activity and run the app via the Genymotion emulator
 
-4. If (and only if) the summerization does not work then you probably need to sign up at Mashape and get an application key (https://market.mashape.com). Then replace my key (rprHAgebeEmshOsHw3pu3foo2JMep1EHd0EjsnH1az5MLf29MC) with your key (there are 2 plces you would have to replace them and they are both in the AsyncTask's doInBackground method)
+4. If (and only if) the summerization does not work then you probably need to sign up at Mashape and get an application key (https://market.mashape.com). Then replace my key (rprHAgebeEmshOsHw3pu3foo2JMep1EHd0EjsnH1az5MLf29MC) with your key (there are 2 places you would have to replace them and they are both in the AsyncTask's doInBackground method in my first MainActivity)
 
 # Features
 
