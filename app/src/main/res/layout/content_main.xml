@@ -67,7 +67,11 @@
         android:id="@+id/summarizedText"
         android:layout_centerHorizontal="true"
         android:layout_above="@+id/original"
-        android:layout_below="@+id/search" />
+        android:layout_below="@+id/search"
+        android:paddingTop="25dp"
+        android:textStyle="normal"
+        android:scrollbars = "vertical"
+        android:autoText="false" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -97,4 +101,5 @@
         android:layout_alignParentEnd="true"
         android:layout_alignLeft="@+id/original"
         android:layout_alignStart="@+id/original" />
+
 </RelativeLayout>
